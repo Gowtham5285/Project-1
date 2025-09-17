@@ -21,7 +21,7 @@ class HDFCBankAccount:
                     self.__updateMainBalance(amount)
             else:
                 print("incorrect pin")
-                
+
     def __updateMainBalByDeopsit(self,amount):
         self.__MainBal+=amount
         print(f"you have successfully the amount {amount} the balance is {self.__MainBal}")
@@ -35,22 +35,15 @@ class HDFCBankAccount:
         else:
             print("Your account is not in active status")
     
-    def __show_MainBal(pin,self):
-        if self.__
+    def __show_MainBal(self,pin):
+        if self.__account_Active_Status:
+            if self.__verifyPin(pin):
+                print(f"the main balance is {self.__MainBal}")
 
     def __request_for_atmcard_approval(self):
         pass
     
-    def __request_for_atmcard_Blocking(self):
-        pass
-    
-    def __request_for_netBanking(self):
-        pass
-    
     def request_for_AccountFreezing(self):
-        pass
-
-    def __request_for_making_individualAccount(self):
         pass
 
     def check_Bal(self,pin):
