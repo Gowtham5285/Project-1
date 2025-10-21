@@ -23,17 +23,17 @@
 #     else:
 #         pass
 # print(c)
-# a=[7,4,7,23,10]
-# res=[]
-# for i in a:
-#     b=i+1
-#     c=0
-#     for j in range(2,b):
-#         if b%j==0:
-#             c+=1
-#     if c==0:
-#         res.append(i)
-# print(*res,sep=" ")
+    # a=[7,4,7,23,10]
+    # res=[]
+    # for i in a:
+    #     b=i+1
+    #     c=0
+    #     for j in range(2,b):
+    #         if b%j==0:
+    #             c+=1
+    #     if c==0:
+    #         res.append(i)
+    # print(*res,sep=" ")
 # a= [ 61, 4, 6, 7, 120 , 10 ]
 # b=5
 # fact=1

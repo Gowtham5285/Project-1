@@ -22,7 +22,7 @@ class SBIBank:
         else:
             print("Active your Account")
     
-    def __withdrawamount(self,amount):
+    def __withdrawFunds(self,amount):
         self.mainBal-=amount
         print(f"the amount is debited successfully the main balance is now {self.mainBal}")
         
@@ -32,13 +32,13 @@ class SBIBank:
                 if amount>self.mainBal:
                     print("The amount you want is more than in the account")
                 else:
-                    self.__withdrawamount(amount)
+                    self.__withdrawFunds(amount)
             else:
                 print("Enter the Right Pin")
         else:
             print("Active your Account")
         
-    def __depositamount(self,amount):
+    def __depositFunds(self,amount):
         self.mainBal+=amount
         print("Amount Successfully Credited to your Account")
         print(f"The Balance is {self.mainBal}")
@@ -46,7 +46,7 @@ class SBIBank:
     def deposit(self,amount,pin):
         if self.accounStatus:
             if self.__pinValidation(pin):
-                self.__depositamount(amount)
+                self.__depositFunds(amount)
             else:
                 print("Enter the Right Pin")
         else:
