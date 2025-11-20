@@ -1,18 +1,24 @@
-# n=int(input("enter a number: "))
-# if(n%2==0):
-#     for i in range(n,0,-1):
-#         if i%2==0:
-#             print("*"*i,end="")
-#         else:
-#             continue
-#         print()
-# else:
-#     for i in range(n,0,-1):
-#         if i%2==1:
-#             print("*"*i,end="")
-#         else:
-#             continue
-#         print()
+n=int(input("enter a number: "))
+if n>100:
+    print("error")
+elif n<0:
+    print("error")
+else:
+    if(n%2==0):
+        for i in range(n,0,-1):
+            if i%2==0:
+                print("*"*i)
+            else:
+                continue
+        print()
+    else:
+        for i in range(n,0,-1):
+            if i%2==1:
+                print("*"*i)
+            else:
+                continue
+        print()
+        
 # name="gowtham"
 # half=len(name)//2
 # first_half=name[:half]
@@ -43,11 +49,11 @@
 # g.func2()
 # g.func3()
 
-num=1234
-digit=0
-product=1
-while num>0:
-    digit=num%10
-    product=product*digit
-    num=num//10
-print(product)
+# num=1234
+# digit=0
+# product=1
+# while num>0:
+#     digit=num%10
+#     product=product*digit
+#     num=num//10
+# print(product)

@@ -1,0 +1,21 @@
+Year,Region,Sales_USD_billion,Growth_%
+2021,Japan,22.3,5.0
+2022,Japan,23.5,4.8
+2023,Japan,24.8,5.5
+2024,Japan,25.3,2.0
+2025,Japan,26.5,4.7
+2021,North America,4.1,6.5
+2022,North America,4.4,5.2
+2023,North America,4.8,6.8
+2024,North America,5.1,6.3
+2025,North America,5.4,5.9
+2021,Europe,2.5,4.2
+2022,Europe,2.7,4.5
+2023,Europe,2.9,5.1
+2024,Europe,3.1,4.4
+2025,Europe,3.3,4.7
+2021,Asia-Pacific,6.0,6.8
+2022,Asia-Pacific,6.3,5.9
+2023,Asia-Pacific,6.7,6.3
+2024,Asia-Pacific,7.2,7.5
+2025,Asia-Pacific,7.6,5.6
