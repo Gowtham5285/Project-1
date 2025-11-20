@@ -46,6 +46,8 @@ def add_student():
     curObject.execute(query,(s_id,s_name,s_age,s_year,s_branch))
     db_connection.commit()
     print("student added successfullyyy.............")
+
+    
 while True:
     print("choose below options")
     print("1.add student")
